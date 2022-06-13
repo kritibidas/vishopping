@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from 'react-router-dom';
 import SliderData from './Sliderdata'
 
 const Slider2 = (props) => {
@@ -52,7 +51,7 @@ const Slider2 = (props) => {
                                 <h2>{item.title}</h2>
                                 <p>{item.para}</p>
                                 <div className="btn-wrapper mt-2">
-                                    <Link to="tel:0411871104" className="cmn-btn btn-bg-1"><i className="las la-phone"></i> CALL NOW </Link>
+                                    <a href="tel:0411871104" className="cmn-btn btn-bg-1"><i className="las la-phone"></i> CALL NOW </a>
                                 </div>
                             </div>
                         </div>

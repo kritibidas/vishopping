@@ -71,7 +71,7 @@ const Header = () => {
                                             <div className='shopping-cart-button'>
                                                 {/* <button>View cart</button>
                                                 <button>Checkout</button> */}
-                                                <button className="checkout-all"> View cart </button>
+                                                <Link to='/cart' className="checkout-all"> View cart </Link>
                                                 <button className="clearall"> Checkout </button>
                                             </div>
                                         </div>

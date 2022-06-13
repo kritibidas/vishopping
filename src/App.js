@@ -14,6 +14,10 @@ import Pedicure from './Pedicure';
 import Waxing from './Waxing';
 import Pricing from './Pricing';
 import Gallery from './Gallery';
+import Login from './Login';
+import Register from './Register';
+import Productdetails from './components/Productdetails';
+import Cart from './Cart';
 
 const App = () => {
   return (
@@ -35,6 +39,10 @@ const App = () => {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/gallery" element={<Gallery/>} />
           <Route path="/contactus" element={<Contactus/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/product/:proId" element={<Productdetails />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Error/>} />
         </Routes>
 

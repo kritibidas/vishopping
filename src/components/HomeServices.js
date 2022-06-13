@@ -35,7 +35,7 @@ const HomeServices = () => {
                                     <img src={data[1].images} alt={data[1].title} />
                                 </div>
                                 <div className="marketplace-contents">
-                                    <h4 className="common-title-two font-20"> <Link to="/services/hair-cut"> {data[1].title} </Link> </h4>
+                                    <h4 className="common-title-two font-20"> <Link to="/services/haircut"> {data[1].title} </Link> </h4>
                                     <p className="common-para">{data[1].para}...</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const HomeServices = () => {
                                     <img src={data[2].images} alt={data[2].title} />
                                 </div>
                                 <div className="marketplace-contents">
-                                    <h4 className="common-title-two font-20"> <Link to="/services/pedicure"> {data[2].title} </Link> </h4>
+                                    <h4 className="common-title-two font-20"> <Link to="/services/pedicure-and-manicure-and-sns"> {data[2].title} </Link> </h4>
                                     <p className="common-para">{data[2].para}...</p>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ const HomeServices = () => {
                                     <img src={data[3].images} alt={data[3].title} />
                                 </div>
                                 <div className="marketplace-contents">
-                                    <h4 className="common-title-two font-20"> <Link to="/services/waxing"> {data[3].title} </Link> </h4>
+                                    <h4 className="common-title-two font-20"> <Link to="/services/waxing-and-facial"> {data[3].title} </Link> </h4>
                                     <p className="common-para">{data[3].para}...</p>
                                 </div>
                             </div>
